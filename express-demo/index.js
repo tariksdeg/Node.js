@@ -15,7 +15,7 @@ app.set('views','./views')
 // console.log(`NODE_ENV: ${process.env.NODE_ENV}`)
 
 // Configuration
-console.log('Application Name:' + config.get('name'))  // export NODE_ENV=development or production , config içine .json bak
+console.log('Application Name:' + config.get('name'))  // export NODE_ENV=development or production , config klasör içine .json bak
 console.log('Mail Server :' + config.get('mail.host'))
 console.log('Mail Password:' + config.get('mail.password')) // terminale export app_password=1234 diye tanımlandı
 
